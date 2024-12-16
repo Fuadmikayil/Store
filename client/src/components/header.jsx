@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import logo from "../assets/logo/Logomark.svg";
 import Search from "../assets/icons/global/Search.svg";
 import Vector from "../assets/icons/global/Vector.svg";
@@ -12,7 +12,7 @@ const Header = () => {
         </p>
         <p className="text-neutralWhite-900 text-xs">Order Now</p>
       </div>
-      <header className="pt-10 px-20 flex items-center gap-20 justify-between">
+      <header className="py-10 px-20 flex items-center gap-20 justify-between">
         <div className="flex gap-2 items-center">
           <img src={logo} alt="logo" className="" />
           <h4 className="text-neutralBlack-900 font-bold text-xl  ">
@@ -49,7 +49,13 @@ const Header = () => {
             className="shadow-lg border   px-2 py-[5px]
          rounded-lg flex  gap-1"
           >
-            <img src={Search} className="text-emerald-500 w-4" alt="Search  " />
+            <div class="text-black flex  items-center">
+              <img
+                src={Search}
+                className=" w-4"
+                alt="Search  "
+              />
+            </div>
             <input
               id="Search"
               type="text"
@@ -57,12 +63,12 @@ const Header = () => {
               className="outline-none  text-sm "
             />
           </label>
-          <img className="cursor-pointer" src={Vector}/>
-          <img className="cursor-pointer" src={User}/>
+          <img className="cursor-pointer" src={Vector} />
+          <img className="cursor-pointer" src={User} />
         </div>
       </header>
     </>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
