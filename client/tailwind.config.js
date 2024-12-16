@@ -21,7 +21,7 @@ export default {
           800: "#5C83FF",
           900: "#4078FF",
         },
-        neutral: {
+        neutralBlack: {
           100: "#E6E7E8",
           200: "#B6B7BC",
           300: "#878A92",
@@ -31,6 +31,11 @@ export default {
           700: "#333845",
           800: "#202533",
           900: "#0E1422",
+        },
+        neutralWhite:{
+          100:"#F6F6F6",
+          200:"#E9E9EB",
+          900:"#FFFFFF"
         },
         green: {
           100: "#D5E5D7",
