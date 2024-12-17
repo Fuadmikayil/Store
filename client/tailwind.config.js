@@ -21,22 +21,6 @@ export default {
           800: "#5C83FF",
           900: "#4078FF",
         },
-        neutralBlack: {
-          100: "#E6E7E8",
-          200: "#B6B7BC",
-          300: "#878A92",
-          400: "#71747E",
-          500: "#5C5F6A",
-          600: "#474B57",
-          700: "#333845",
-          800: "#202533",
-          900: "#0E1422",
-        },
-        neutralWhite:{
-          100:"#F6F6F6",
-          200:"#E9E9EB",
-          900:"#FFFFFF"
-        },
         green: {
           100: "#D5E5D7",
           200: "#C1D8C4",
@@ -82,6 +66,9 @@ export default {
           '2xl': '1440px',
         },
       },
+      backgroundImage:{
+        fasionbg:"linear-gradient(to right,#F6F6F6,#FFFFFF)"
+      }
     },
   },
   plugins: [],

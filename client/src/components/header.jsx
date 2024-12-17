@@ -7,22 +7,22 @@ const Header = () => {
   return (
     <>
       <div className="w-full py-2 flex justify-center bg-neutral-900  items-center ">
-        <p className="text-neutralWhite-900 text-xs ">
+        <p className="text-neutral-100 text-xs ">
           Get 25% OFF on your first order.
         </p>
-        <p className="text-neutralWhite-900 text-xs">Order Now</p>
+        <p className="text-neutral-100text-xs">Order Now</p>
       </div>
       <header className="py-10 px-20 flex items-center gap-20 justify-between">
         <div className="flex gap-2 items-center">
           <img src={logo} alt="logo" className="" />
-          <h4 className="text-neutralBlack-900 font-bold text-xl  ">
+          <h4 className="text-neutral-900 font-bold text-xl  ">
             Ecommerce
           </h4>
         </div>
         <nav>
           <ul className="flex gap-8">
             <li>
-              <a className="text-sm text-neutralBlack-500" href="#">
+              <a className="text-sm text-neutral-500" href="#">
                 Home
               </a>
             </li>

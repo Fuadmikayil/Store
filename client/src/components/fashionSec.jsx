@@ -1,12 +1,11 @@
-import React from "react";
-import Heroİmg from "../assets/images/HeroImage.svg";
+import React from 'react'
+import CategoryImage from "../assets/images/CategoryImage.svg";
 import ArrowRight from "../assets/icons/global/ArrowRight.svg";
 
-const Hero = () => {
+const FashionSec = () => {
   return (
-    <>
-      <section className="w-full flex   justify-between items-center px-28  bg-neutral-100 pt-14 ">
-        <div className="flex flex-col gap-4">
+    <div className='bg-fasionbg flex   justify-between items-center  px-28  bg-neutral-100 '>
+         <div className="flex flex-col gap-4 py-14">
           <h1 className="text-neutral-900 font-bold text-3xl  tracking-wide">
             Fresh Arrivals Online
           </h1>
@@ -18,10 +17,9 @@ const Hero = () => {
             <img src={ArrowRight} className="w-5"  />
           </button>
         </div>
-        <img className="h-[350px] " src={Heroİmg} alt="Heroİmg" />
-      </section>
-    </>
-  );
-};
+        <img src={CategoryImage} alt="" />
+    </div>
+  )
+}
 
-export default Hero;
+export default FashionSec
