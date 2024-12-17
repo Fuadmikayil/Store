@@ -4,6 +4,7 @@ import Hero from "../components/hero";
 import FeatureCard from "../components/featureCard";
 import BestSelling from "../components/bestSelling";
 import FashionSec from "../components/fashionSec";
+import FeaturedCard2 from "../components/FeaturedCard2";
 const HomePages = () => {
   return (
    <>
@@ -12,6 +13,7 @@ const HomePages = () => {
     <FeatureCard/>
     <BestSelling/>
     <FashionSec/>
+    <FeaturedCard2/>
     </>
   );
 };

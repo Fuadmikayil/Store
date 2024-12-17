@@ -4,7 +4,7 @@ import ArrowRight from "../assets/icons/global/ArrowRight.svg";
 
 const FashionSec = () => {
   return (
-    <div className='bg-fasionbg flex   justify-between items-center  px-28  bg-neutral-100 '>
+    <div className='bg-fasionbg flex   justify-between items-center  px-28  bg-neutral-100 w-full  '>
          <div className="flex flex-col gap-4 py-14">
           <h1 className="text-neutral-900 font-bold text-3xl  tracking-wide">
             Fresh Arrivals Online

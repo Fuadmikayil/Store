@@ -27,17 +27,17 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a className="text-sm" href="#">
+              <a className="text-sm text-neutral-500" href="#">
                 Categories
               </a>
             </li>
             <li>
-              <a className="text-sm" href="#">
+              <a className="text-sm text-neutral-500" href="#">
                 About
               </a>
             </li>
             <li>
-              <a className="text-sm" href="#">
+              <a className="text-sm text-neutral-500" href="#">
                 Contact{" "}
               </a>
             </li>

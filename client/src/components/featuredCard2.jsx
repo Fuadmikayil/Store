@@ -1,15 +1,19 @@
 import React from "react";
 import Pr1 from "../assets/images/cover.png";
 
-const BestSelling = () => {
+const FeaturedCard2 = () => {
   return (
     <section className="">
       <div className="flex flex-col  items-center py-16  gap-5 ">
-        <div>
-          <span className="text-neutral-300 text-sm">Shop Now</span>
-          <h3 className="text-neutral-900 font-bold text-xl">Best Selling</h3>
+        <div className=" flex gap-2">
+          <button className="text-xs border border-gray-400 font-bold tracking-wide text-neutral-900 px-2 py-1 rounded-xl">
+          Featured
+          </button>
+          <button className="text-xs  text-neutral-900 px-2 py-1 tracking-wide rounded-xl">
+          Latest
+          </button>
         </div>
-        <section className=" flex  justify-between w-[80%] gap-10 ">
+        <section className=" flex  justify-between w-[80%] gap-10  mt-6">
           <div className="flex flex-col gap-1 w-full">
             <div className="max-w-[274px]  max-h-[350px] bg-[#ECECEC] flex  justify-center items-start">
               <img src={Pr1} alt="" className="cover " />
@@ -64,4 +68,4 @@ const BestSelling = () => {
   );
 };
 
-export default BestSelling;
+export default FeaturedCard2;
