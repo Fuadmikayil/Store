@@ -5,6 +5,8 @@ import FeatureCard from "../components/featureCard";
 import BestSelling from "../components/bestSelling";
 import FashionSec from "../components/fashionSec";
 import FeaturedCard2 from "../components/FeaturedCard2";
+import Subscribe from "../components/subscribe";
+import Footer from "../components/footer";
 const HomePages = () => {
   return (
    <>
@@ -14,6 +16,8 @@ const HomePages = () => {
     <BestSelling/>
     <FashionSec/>
     <FeaturedCard2/>
+    <Subscribe/>
+    <Footer/>
     </>
   );
 };

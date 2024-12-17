@@ -10,7 +10,7 @@ const Header = () => {
         <p className="text-neutral-100 text-xs ">
           Get 25% OFF on your first order.
         </p>
-        <p className="text-neutral-100text-xs">Order Now</p>
+        <p className="text-neutral-100 text-xs">Order Now</p>
       </div>
       <header className="py-10 px-20 flex items-center gap-20 justify-between">
         <div className="flex gap-2 items-center">
