@@ -30,10 +30,11 @@ function CarouselWithContent() {
           <div className="absolute inset-0 grid h-full w-full items-end bg-black/10"></div>
         </div>
       </Carousel>
-
       <div className="max-w-sm  bg-white shadow-lg rounded-lg p-4">
         <div className="flex justify-between items-center">
-          <h1 className="text-xl font-bold text-gray-800">Raw Black T-Shirt Lineup</h1>
+          <h1 className="text-xl font-bold text-gray-800">
+            Raw Black T-Shirt Lineup
+          </h1>
           <i className="text-gray-500 material-icons">share</i>
         </div>
         <div className="flex justify-between items-center mt-2">
@@ -47,7 +48,9 @@ function CarouselWithContent() {
         </div>
         <h3 className="text-lg font-semibold text-gray-800 mt-4">$75.00</h3>
         <div className="mt-4">
-          <p className="text-sm font-semibold text-gray-600">Available Colors</p>
+          <p className="text-sm font-semibold text-gray-600">
+            Available Colors
+          </p>
           <div className="flex space-x-3 mt-2">
             <div className="w-6 h-6 rounded-full bg-blue-500 border border-gray-300"></div>
             <div className="w-6 h-6 rounded-full bg-yellow-400 border border-gray-300"></div>

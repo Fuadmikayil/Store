@@ -1,12 +1,12 @@
 import React from 'react'
 import Header from '../components/header'
-import CarouselWithContent from '../components/productMain'
+import Sidebar from '../components/sidebar'
 
 const Products = () => {
   return (
     <>
     <Header/>
-    <CarouselWithContent/>
+    <Sidebar/>
     </>
   )
 }
