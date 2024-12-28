@@ -1,5 +1,6 @@
 import { Carousel, Typography, Button } from "@material-tailwind/react";
 import productsImg from "../assets/images/cover.png";
+import Share from "../assets/icons/global/Share.svg";
 
 function CarouselWithContent() {
   return (
@@ -35,11 +36,11 @@ function CarouselWithContent() {
           <h1 className="text-xl font-bold text-gray-800">
             Raw Black T-Shirt Lineup
           </h1>
-          <i className="text-gray-500 material-icons">share</i>
+          <img src={Share} alt="Share"  className="w-5 ml-10"/>
         </div>
         <div className="flex justify-between items-center mt-2">
           <div className="flex items-center">
-            <i className="text-yellow-400 material-icons">star</i>
+            <i className="text-yellow-400 material-icons">★</i>
             <h3 className="ml-1 text-sm text-gray-600">4.2 — 54 Reviews</h3>
           </div>
           <button className="text-xs text-white bg-green-500 px-2 py-1 rounded-lg">
